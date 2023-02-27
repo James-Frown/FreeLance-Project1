@@ -1,32 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <nav id="Navigation__Section" className="App__Navigation">HI IM THE NAVIGATION</nav>
+      <div id="Hero__Section" className="App__Hero">
+        <div className="Hero__Title__Wrapper">
+          <h1  id="Hero__Title" className="Hero__Title">
+            Welcome to Free-Flix
+          </h1>
+        </div>
+        <div className="Hero__Subtitle__Wrapper">
+          <h2  id="Hero__Subitle" className="Hero__Subitle">
+            This is a Netflix Clone
+          </h2>
+        </div>
+        <div className="Hero__Description__Wrapper">
+          <p  id="Hero__Description" className="Hero__Description">
+            Why pay for Netflix, when you can just stream here, for free!!
+          </p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div id="Content__Section" className="App__Content">HI IM THE CONTENT</div>
+      <div id="Footer__Section" className="App__Footer">HI IM THE FOOTER</div>
     </div>
   )
 }
