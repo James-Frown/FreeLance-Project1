@@ -33,6 +33,17 @@ function App() {
         <Flixcard />
         <Flixcard />
         <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
       </div>
       <div id="Footer__Section" className="App__Footer">HI IM THE FOOTER</div>
     </div>
