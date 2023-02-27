@@ -11,14 +11,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  background-color: darkslategrey;
+  padding: 14px 30px;
 }
 
 .App__Hero {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 10rem;
 }
 
 .Hero__Title__Wrapper {
@@ -42,13 +45,85 @@
 }
 
 .Hero__Description {
-  
+
+}
+
+.Content__Section__Subitle {
+  display: flex;
+  justify-content: center;
+}
+
+.Content__Subitle {
+  margin: 0;
 }
 
 .App__Content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 2rem;
+}
 
+.Flixcard {
+  display: block;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 350px;
+  height: auto;
+}
+
+.Flixcard__Wrapper {
+  padding: 1rem 0;
 }
 
 .App__Footer {
 
+}
+
+@media screen and (max-width: 600px) {
+  .App__Navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 14px 30px;
+  }
+  
+  .App__Hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .App__Content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 1.5rem;
+  }
+  
+  .Flixcard {
+    display: block;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 350px;
+    height: auto;
+  }
+  
+  .Flixcard__Wrapper {
+    padding: 1rem 0;
+  }
 }

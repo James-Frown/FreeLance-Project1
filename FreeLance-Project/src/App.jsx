@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import './App.css'
+import Flixcard from './componenets/Flixcard'
 
 function App() {
   return (
@@ -22,7 +22,18 @@ function App() {
           </p>
         </div>
       </div>
-      <div id="Content__Section" className="App__Content">HI IM THE CONTENT</div>
+      <div id="Content__Section__Subitle" className="Content__Section__Subitle">
+          <h2  id="Content__Subitle" className="Content__Subitle">
+            Below are our Fetured Films
+          </h2>
+      </div>
+      <div id="Content__Section" className="App__Content">
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+        <Flixcard />
+      </div>
       <div id="Footer__Section" className="App__Footer">HI IM THE FOOTER</div>
     </div>
   )
