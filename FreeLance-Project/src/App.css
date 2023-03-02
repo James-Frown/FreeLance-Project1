@@ -15,6 +15,18 @@
   padding: 14px 30px;
 }
 
+.Navigation__Text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.Navigation__Text:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
 .App__Hero {
   display: flex;
   flex-direction: column;
@@ -37,7 +49,7 @@
 }
 
 .Hero__Subitle {
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Hero__Description__Wrapper {
@@ -45,7 +57,7 @@
 }
 
 .Hero__Description {
-
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Content__Section__Subitle {
@@ -106,7 +118,7 @@
 }
 
 .Flixcard__Description {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -119,11 +131,15 @@
   background-color: rgba(66, 23, 3, 0.582);
 }
 
-.Flixcard__Movie__Link {
+.Flixcard__Url__Link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   color: white;
+}
+
+.Flixcard__Url__Link:hover {
+  color: aquamarine;
 }
 
 .App__Footer {

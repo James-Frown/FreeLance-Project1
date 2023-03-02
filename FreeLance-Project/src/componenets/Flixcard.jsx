@@ -31,7 +31,7 @@ function Flixcard(props) {
             {Description}
           </p>
           <div className="Flixcard__Link">
-            <a className="Flixcard__Movie__Link" href={Url}>Click To Watch</a>
+            <a className="Flixcard__Url__Link" href={Url}>Click To Watch</a>
           </div>
         </div>
       </div>
