@@ -36,24 +36,8 @@
   padding: 10rem;
 }
 
-.Hero__Title__Wrapper {
-
-}
-
-.Hero__Title {
-
-}
-
-.Hero__Subtitle__Wrapper {
-
-}
-
 .Hero__Subitle {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.Hero__Description__Wrapper {
-
 }
 
 .Hero__Description {
@@ -143,7 +127,7 @@
 }
 
 .App__Footer {
-
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -151,10 +135,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
     background-color: darkslategrey;
     padding: 14px 30px;
   }
   
+  .Navigation__Text {
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+  }
+
   .App__Hero {
     display: flex;
     flex-direction: column;
@@ -187,4 +179,8 @@
   .Flixcard__Wrapper {
     padding: 1rem 0;
   }
+}
+
+@media screen and (max-width: 380px) {
+
 }
